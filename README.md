@@ -2,13 +2,13 @@
 
 Details are in the folders.
 
-## Normal_Part
+## Normal_Part folder
 
-Traditional ML models. 
+Including the crawler, traditional ML models, and the front end by Dash. *Codes are not well-organized.*
 
-Result summary:
+### Result summary
 
-Acc of MaxEnt by using Excerpt and Summary: 
+Accuracy of Maximum Entropy by using Excerpt and Summary: 
 
 - Fiction/Nonfiction: 0.90025
 - Multi-tags:
@@ -21,6 +21,6 @@ Acc of MaxEnt by using Excerpt and Summary:
 | 3                                      | 0.974554      |
 | 4                                      |  0.994910     |
 
-## Deep_part
-No better performance. Details are in jupyter notebooks.
+## Deep_part folder
+Deep learning of CNN and LSTM. No better performance. Details are in Jupyter notebooks in the folder.
 

@@ -1,8 +1,8 @@
 # Multi-label Book Genre Classification
 
-Normal part with several traditional NL models
+***These codes are not organized well. They are mostly for recording experiments line by line.***
 
-This codes are not organized well. They are mostly for experiments line by line. 
+Traditional machine learning models for book genre classification.
 
 ## Codes:
 
@@ -38,7 +38,7 @@ This codes are not organized well. They are mostly for experiments line by line.
 ./sparse_class.py
 "a sparse class that is used to save the data matrix, used in the above python files"
 
-## Data (ignored in git):
+## Data (git-ignored due to large size):
 
 ./booklistall_v3.csv
 "The csv table of the information of the books data we have collected, used in R and MATLAB"
