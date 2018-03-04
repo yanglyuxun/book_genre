@@ -1,17 +1,7 @@
-# deep learning experiment for the book genre classification project
+# Deep learning part
+
+These experiments were done in Jupyter Notebooks so that the processes are more clear. `text_classifier` means using the text (excerpt or summary), while `img_classifier` uses the cover images, and `title_classifier` uses the title of the books.
 
 
-## Experiments named "text_classifier?.ipynb":
-1. train embedding myself, with LSTM
-2. use pre trained embedding with LSTM
-3. ~~change 2 from sigmoid to tanh (performs not good)~~(wrong)
-4. add CNN to get spacial structure 
-
-## "img_classifier1.ipynb":
-pre trained VGG16 + a simple dence - too slow
-
-## "title_classifier1.ipynb":
-trans from text4, to use title data
-
-## result
-Deep models did not perform better than MaxEnt in the traditional part. See notebooks for details. More result recording files are in results.zip.
+## Conclusion
+None of these experiments perform better than MaxEnt in the traditional part, although different network structures were tried. This may be due to the small number of data (less than 10000). According to Andrew Ng's theory, deep learning will perform better than traditional models when data size grows, but may not beat traditional models when data size is small. 

@@ -1,17 +1,17 @@
 # Book Genre Classification
 
-Details are in the folders.
+*For further details, please see the README in each folder.*
 
 ## Normal_Part folder
 
-Including the crawler, traditional ML models, and the front end by Dash. *Codes are not well-organized.*
+Including codes of the crawler, the traditional ML models, and the final front end. 
 
-### Result summary
+### Brief summary
 
-Accuracy of Maximum Entropy by using Excerpt and Summary: 
+Accuracy of Maximum Entropy by using Excerpt and/or Summary: 
 
 - Fiction/Nonfiction: 0.90025
-- Multi-tags:
+- Multi-tag classification:
 
 | Error Tolerance (among 24 tags)        | Accuracy      |
 | -------------------------------------- |:-------------:|
@@ -22,5 +22,5 @@ Accuracy of Maximum Entropy by using Excerpt and Summary:
 | 4                                      |  0.994910     |
 
 ## Deep_part folder
-Deep learning of CNN and LSTM. No better performance. Details are in Jupyter notebooks in the folder.
+Deep learning of CNN and LSTM. The performance was not better than MaxEnt. Details are in Jupyter notebooks in the `Deep_part` folder.
 

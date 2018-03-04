@@ -1,41 +1,41 @@
 # Multi-label Book Genre Classification
 
-***These codes are not organized well. They are mostly for recording experiments line by line.***
+***Due to time limit, there are not many comments in the codes. Please contact the author if you need any explanation.***
 
 Traditional machine learning models for book genre classification.
 
 ## Codes:
 
-./nprspider.py;
-./nprspider2.py;
-./nprspider4.py;
+./nprspider.py;  
+./nprspider2.py;  
+./nprspider4.py;  
 "All the python codes of the crawler for collecting data, where nprspider.py is the first crawler, and the other 2 files are used to add more data"
 
-./1_from_sep_words.py
-"Save the words data (from preprocessing) to a pickle format, so that Python can easily read it"
+./1_from_sep_words.py  
+"Save the words data (from preprocessing) to a pickle format, so that Python can easily read it"  
 
-./2_fic_classifier.py
+./2_fic_classifier.py  
 "The codes to do the experiments of using different models to classify Fication/Nonfiction so that the accuracies can be compared"
 
-./2_fic_maxent.py
+./2_fic_maxent.py  
 "Write our own codes for MaxEnt, 'class my_MaxEnt()', and trained and tested it for Fiction/Nonfiction"
 
-./3_tag_classifier.py
+./3_tag_classifier.py  
 "Make the whole model for all 24 tags, as a 'class multiclassify()'."
 
-./4_image.py
+./4_image.py  
 "The SVM model for cover images, which was dropped for poor accuracy"
 
-./5_dash.py
+./5_dash.py  
 "The Dash codes of the front end, which is running on the server"
 
-./WHOLE_MODEL.py
+./WHOLE_MODEL.py  
 "The file to include all packages and functions needed in a complete prediction, used by ./5_dash.py. It is also on the server of the front end".
 
-./analyze.py
+./analyze.py  
 "used to produce some results of analyzing"
 
-./sparse_class.py
+./sparse_class.py  
 "a sparse class that is used to save the data matrix, used in the above python files"
 
 ## Data (git-ignored due to large size):
